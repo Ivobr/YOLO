@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO("traffic_sign_detector.pt")  # Replace with actual path to the model file
 
 # Load video instead of webcam
-video_path = "test_footage.mp4"  # Update with your local video file path
+video_path = "0"  # Update with your local video file path
 cap = cv2.VideoCapture(video_path)
 
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
